@@ -1,0 +1,108 @@
+.social-icons .fa-brands:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #d35400;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9); 
+    transition: .5s;  
+
+}
+
+.social-icons .fa-brands:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #d35400;
+} 
+
+.social-icons .fa-brands:hover{
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px#d35400;
+
+
+}
+
+
+
+
+
+
+                    <a href="https://www.facebook.com/spandan.tripathy.07" target="_blank">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                    </a>
+                    <a href="https://twitter.com/SpandanTri49718" target="_blank">
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </a>
+                    <a href="https://www.instagram.com/spandan_tripathy/" target="_blank">
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/spandan-tripathy-9a9b33251" target="_blank">
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                    </a>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay:{
+            delay:2000,
+            disableOnInteraction: false,
+        },
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    });
+
+</script>
+
+
+    <section>
+        <div class="contanier">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/photo1.jpg" alt="photo1"></div>
+                    <div class="swiper-slide"><img src="images/photo2.jpg" alt="photo2"></div>
+                    <div class="swiper-slide"><img src="images/photo3.jpg" alt="photo3"></div>
+                    <div class="swiper-slide"><img src="images/photo4.jpg" alt="photo4"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+.contanier{
+    width: 80%;
+    height: 80vh;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13%;
+    padding-top: 5%;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.swiper-wrapper img{
+    width: 50%;
+}
+ 

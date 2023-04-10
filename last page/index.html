@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="response.css">
+    <title>LAMP</title>
+    <script src="https://kit.fontawesome.com/b494d1fda6.js"></script>
+</head>
+<body> 
+    <nav class="navbar background h-nav">
+        <ul class="nav-list v-class">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Serivces</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+        <div class="rightNav v-class">
+            <input type="text" name="Search" id="Search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstsection" id="home">
+        <div class="box-main">
+            <div class="firstHlaf">
+                <p class="text-big">The future of lights is here</p>
+                <p class="textt-small">In the world pf 7 billion people we all need lights.This is the future of bright India, and we are pround to have that in India for the first time.The future of lights is here</p>
+            <div class="buttons">
+                <button class="btn">lamp</button>
+                <button class="btn">menu</button>  
+            </div>
+            </div>
+            <div class="secondHlaf">
+                <img src="images/lamp.png" alt="lamps lmage">
+            </div>
+        </div>
+
+    </section> 
+    
+    <section class="section" id="about">
+        <div class="para">
+        <p class="sectionTag text-big">About Stock</p>
+        <p class="sectionsubTag textt-small">Stock refers to a unit of ownership in a company or corporation. When you buy a stock, you are essentially buying a piece of the company and become a shareholder. The value of the stock can rise or fall depending on various factors, such as the company's financial performance, economic conditions, market trends, and investor sentiment.
+            Investing in stocks can be a way to potentially grow your wealth over time, but it can also be risky, as there are no guarantees of profits or returns. It's important to do your research, understand the company's financial health, and consider your own risk tolerance before investing in any stock.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?stock," alt="menu image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+        <div class="para">
+        <p class="sectionTag text-big">Types of Stocks</p>
+        <p class="sectionsubTag textt-small">There are different types of stocks, such as common stocks, preferred stocks, and penny stocks. Common stocks are the most popular and represent the majority of stocks available in the market. Preferred stocks have a higher claim on a company's assets and earnings, but typically offer lower potential returns. Penny stocks are typically low-priced stocks that trade over-the-counter and may be highly speculative.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?stock,graphs" alt="menu image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="para">
+        <p class="sectionTag text-big">Future of stock</p>
+        <p class="sectionsubTag textt-small">The future of stocks will depend on various factors such as the global economic conditions, political stability, technological advancements, company earnings and growth, and investor sentiment.
+
+            In the long term, stocks have historically provided higher returns than other asset classes such as bonds and cash. This is because stocks represent ownership in companies, and as companies grow and become more profitable, their stock prices tend to rise. However, in the short term, stocks can be volatile and subject to sudden changes in price due to market fluctuations.
+            
+            Looking ahead, there are some trends that could impact the future of stocks. For example, the rise of technology and digitalization is transforming many industries and could create new opportunities for companies and investors. Additionally, concerns over climate change and environmental sustainability could lead to increased investment in companies that prioritize these issues.
+            
+            It's important to remember that investing in stocks always carries risks, and it's important to diversify your portfolio and carefully consider your investment goals and risk tolerance. Ultimately, the future of stocks will depend on a complex set of factors, and it's difficult to make definitive predictions about what the market will look like in the years ahead.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?darkness,lamp" alt="menu image" class="imgFluid">
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact us</h2>
+        <div class="form">
+            <form>
+                <input class="form-input" type="text" name="name" id="Name" placeholder="Enter Your Name" required>
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone no." required>
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                    <textarea class="form-input"  name="message" id="message" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+                <button class="btn btn-sm btn-dark" disabled type="button" id="Submit" onclick="openPopup()">Submit</button>
+            </form>
+            <div class="popup" id="popup">
+                <img src="images/tick.png">
+                <h2>Thank You!</h2>
+                <p>Your Detail has been successfully submitted. Thanks! </p>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="images/logo.png" alt="logo img" class="logo-f">
+                <p>Enjoy guaranteed discounts, special previews, also get Rs. 200 food 
+                voucher and much more. Sign up today - it’s free and only takes a 
+                minute to join.</p>
+            </div>
+            <div class="col" id="services">
+                <h3>Office <div class="underline"><span></span></div></h3>
+                <p>New Bus stand road</p>
+                <p>Scientific nagar, Berhampur</p>
+                <p>Odisha , PIN- 760001, India</p>
+                <p class="email-id">tripathyspandan23@gmail.com</p>
+                <h4>+91 7377126109</h4>
+            </div>
+            <div class="col">
+                <h3>links <div class="underline"><span></span></div></h3>
+                <ul class="footer-b">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Serivces</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>NewsLetter <div class="underline"><span></span></div></h3>
+                <form class="footer-d">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="light">
+                    <ul>
+                        <li> <a href="https://www.facebook.com/spandan.tripathy.07" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i></a></li>           
+                        <li><a href="https://twitter.com/SpandanTri49718" target="_blank">
+                        <i class="fa-brands fa-twitter"></i></a></li>        
+                        <li> <a href="https://www.instagram.com/spandan_tripathy/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i></a></li>                
+                        <li> <a href="https://www.linkedin.com/in/spandan-tripathy-9a9b33251" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i></a></li>                        
+                    </ul>
+                </div> 
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &copy; 2030 www.lamp.com - All rights reseverd</p>
+    </footer>
+
+    
+    <script src="resp.js"></script>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1069px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 447px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #seacrh{
+        max-width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav{
+        height: 72px;
+    }
+    
+    .v-class{
+        opacity: 0;
+    }
+
+    .section{
+        flex-direction: column-reverse;
+
+    }
+
+    .text-small{
+        text-align: center;
+
+    }
+
+    .text-big{ 
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;   
+    }
+
+    .para{
+        padding: 0px ;
+    }
+
+    .footer{
+        bottom: unset; 
+    }
+
+    .col{
+        flex-basis: 100%;
+    }
+    
+    .col:nth-child(2), .col:nth-child(3){
+        flex-basis: 100%;
+    }
+
+}
